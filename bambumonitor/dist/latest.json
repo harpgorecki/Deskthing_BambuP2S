@@ -1,0 +1,50 @@
+{
+  "meta_version": "0.11.8",
+  "meta_type": "app",
+  "icon": "",
+  "size": 627473,
+  "appManifest": {
+    "id": "bambu-monitor",
+    "name": "Bambu Printer Monitor",
+    "author": "Harper Gorecki",
+    "version": "1.0.0",
+    "description": "Monitors print progress, temperatures, and status for Bambu Lab printers over cloud channels.",
+    "main": "dist/index.js",
+    "platforms": [
+      "server",
+      "client"
+    ],
+    "config": {
+      "accessToken": {
+        "label": "Bambu Access Token",
+        "type": "string",
+        "value": "AQBvxn-yT5Ku-TDb8kieTKqcd9a9NBZ7jIcyuBLZEdkYFrq-Q0JyquqpZUYxz5u61x6SwhPFzSJIgP1CkKauW92jDiYVM_rlGoyNlfj9fA99D-2vVsScsS9xzl1KNwSg5PVrXdtZDSqsNwWd",
+        "description": "Your account cookie token value grabbed from your browser"
+      },
+      "bambuUserId": {
+        "label": "Bambu Account User ID (uid)",
+        "type": "string",
+        "value": "3442918350",
+        "description": "The numerical ID string found inside your profile API link"
+      },
+      "serialNumber": {
+        "label": "Printer Serial Number",
+        "type": "string",
+        "value": "22E8AJ631100667",
+        "description": "The 15-character serial number of your P2S printer"
+      },
+      "region": {
+        "label": "Server Region",
+        "type": "string",
+        "value": "Americas",
+        "description": "Set to 'Americas' (covers Europe/US) or 'China'"
+      }
+    }
+  },
+  "updateUrl": "",
+  "hash": "8fcd8d22439f440db5737c5819379d58cd6f77e7fc62cec551281171f87c8b2658b5bfba49284cf83623dbf870c3556a3ff9f014df86b8d0191ce6c661907865",
+  "hashAlgorithm": "sha512",
+  "updatedAt": 1787083956369,
+  "createdAt": 1787083956369,
+  "downloads": 0
+}
